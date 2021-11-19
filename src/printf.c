@@ -130,7 +130,7 @@ typedef struct {
 
 void __attribute__((weak)) _putchar(char character) 
 {
-
+  (void)character;
 }
 
 // internal buffer output
